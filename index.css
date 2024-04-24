@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+
+body {
+
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #333399, #ff00cc);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+/* ------navigation bar ------*/
+.navigation{
+    position: relative;
+    width: 100vw;
+    margin-top: 10px;
+}
+.navigation .home{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 7px;
+    position: absolute;
+    right: 14%;
+    transition: linear 0.20s;
+border-radius: 1rem;
+font-weight:700;
+    
+}
+/*------home button*/
+
+.home:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+}
+
+.home:active {
+    background: white;
+}
+
+/*----student record button----*/
+
+.navigation .studentrecords{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 7px;
+    position: absolute;
+    right: 3%;
+    transition: linear 0.20s;
+border-radius: 1rem;
+font-weight:700;
+    
+}
+
+.studentrecords:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+}
+
+.studentrecords:active {
+    background: white;
+}
+
+
+/*---main section----*/
+
+main {
+    width: 600px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 5%;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+
+}
+
+.logincardlogo,
+.forminput,
+h1 {
+
+    text-align: center;
+    
+}
+
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.logincardlogo {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+
+/*-----for form label----*/
+
+label {
+    display: block;
+
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+/*--------for input----*/
+input {
+    width: 40%;
+    border-radius: 1rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+transition: 0.20s linear;
+
+}
+input:hover{
+    transform: scale(1.09);
+    box-shadow: 2px 2px 20px 2px #ff00cc;
+}
+input:focus {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+img {
+    width: 10rem;
+}
+
+
+/*--------for add button------*/
+.addbutton {
+    margin: 15px;
+    width: 60px;
+    border-radius: 1rem;
+    transition: linear 0.20s;
+    padding: 10px;
+
+
+}
+
+.addbutton:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    
+}
+
+.addbutton:active {
+    background: white;
+}
+
+
+/*-------record section*/
+
+
+#recordSection{
+    margin-top: 200px;
+       
+}
+
+
+/* header of student record ---*/
+.box{
+    
+     right: 60%;
+   position: relative;
+font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+width: 80vw;
+padding: 5px 50px;
+
+
+}
+.nameClass{
+    position: relative;
+    
+    
+}
+
+.emailClass{
+    position: relative;
+    left:200px
+}
+
+
+.contactClass{
+
+    position: relative;
+    left: 250px;
+}
+.rollClass{
+    position: relative;
+    left: 100px;
+}
+
+.classClass{
+
+    position: relative;
+    left: 50px;
+}
+
+.idClass{
+    position: relative;
+    left: 30px;
+}
+
+
+.emailClass{
+    width: 50px;
+    padding: 0px,100px;
+    margin: 50px;
+}
+
+span{
+    margin: 30px;
+    padding: 5px;
+    
+}
+
+
+/*----dynamic class style ------*/
+
+
+
+/*-----edit button--*/
+
+ .editButton{
+    color: #ff00cc;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 2px 7px;
+    transition: linear 0.20s;
+    
+} 
+
+.editButton:hover{
+    
+    
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    color: black;
+    box-shadow: 2px 2px 20px 2px #ff00cc;
+}
+
+.editButton:active {
+    background: white;
+}
+
+
+/*--- for delete button---*/
+
+.deleteButton{
+    
+   color: #ff00cc;
+    font-size: 1rem; 
+    border-radius: 1rem;
+    padding: 2px 7px;
+    transition: linear 0.20s;
+    margin-left: 5px;
+   
+} 
+
+.deleteButton:hover{
+    
+    
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    color: black;
+    box-shadow: 2px 2px 20px 2px #ff00cc;
+}
+
+.deleteButton:active {
+    background: white;
+}
+
+/*----table   */
+
+
+table{
+    
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    position: relative;
+    right: 300px;
+    width: 80vw;
+    margin-top: 300px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    color: black;
+    
+    
+}
+
+/* for table header */
+th{
+padding: 8px 10px;
+
+}
+
+
+   
+
+
+td{
+
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+

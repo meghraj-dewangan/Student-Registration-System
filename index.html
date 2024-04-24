@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Student Registration System" content="Student Registration System">
+    <title>Student Registration System </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+        integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+            
+        
+</head>
+
+<body id="body1">
+    <nav>
+        <div class="navigation">
+            <a href="#" class="home">Home</a>
+            <a href="#record" class="studentrecords">Student Records</a>
+        </div>
+    </nav>
+    <main>
+
+        <div class="container">
+            <div class="logincardlogo"><img src="./images/panda1.png" alt="logo" id="image"></div>
+
+
+
+            <h1>Student Registration System</h1>
+
+
+            <form class="forminput" action="">
+                <label for="StudentName"></label>
+                <input class="input1" type="text" id="StudentName" placeholder="Student Name" name="StudentName"
+                    required>
+                <label for="Email"></label>
+                <input type="email" id="Email" placeholder="Email Id" name="Email" required>
+                <label for="StudentId"></label>
+                <input type="number" id="StudentId" placeholder="Student Id" name="Student Id" required>
+                <label for="Class"></label>
+                <input type="number" id="Class" placeholder="Class" name="Class" required>
+                <label for="RollNo."></label>
+                <input type="number" id="RollNo." placeholder="Roll no." name="RollNo." required>
+                <label for="ContactNo."></label>
+                <input type="number" id="ContactNo." placeholder="Contact No." name="Contact No." required>
+                <br>
+                <button type="submit" class="addbutton">Add</button>
+
+
+            </form>
+
+
+        </div>
+
+
+
+        <table id="record" >
+            <thead>
+
+                <tr>
+                    <th>
+                        Student Name
+                    </th>
+                    <th>
+                        Student Id
+                    </th>
+                    <th>
+                        Class
+                    </th>
+                    <th>
+                        Roll No.
+                    </th>
+                    <th>
+                        Email Id :
+                    </th>
+                    <th>
+                        Contact No.
+                    </th>
+                </tr>
+            </thead>
+            <tbody >
+                <div id="studentRecordContainer">
+
+
+
+                </div>
+
+            </tbody>
+
+
+        </table>
+
+
+        <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
