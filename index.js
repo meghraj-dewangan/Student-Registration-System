@@ -82,8 +82,8 @@ function deleteStudentRecord(e) {
 function attachEditDeleteEvents(row) {
     const editButton = row.querySelector('.editButton');
     const deleteButton = row.querySelector('.deleteButton');
-    editButton.addEventListener('dblclick', editStudentRecord);
-    deleteButton.addEventListener('dblclick', deleteStudentRecord);
+    editButton.addEventListener('click', editStudentRecord);
+    deleteButton.addEventListener('click', deleteStudentRecord);
 }
 
 // Attach event listener for form submission
